@@ -17,3 +17,5 @@ wip () {
         git commit -m "${MESSAGE}"
 }
 ```
+
+[usage](https://github.com/inmanturbo/inmanturbo/blob/main/usage.md#usage)
