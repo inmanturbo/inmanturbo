@@ -42,4 +42,8 @@ On branch main
 
 nothing to commit, working tree clean
 ```
-You can optionally pass commit message, otherwise the inspiring quote will be used as the commit message.
+You can optionally pass a commit message (inside quotes), otherwise the inspiring quote will be used as the commit message.
+
+```
+wip "Work in progress"
+```
