@@ -2,9 +2,9 @@
 
 ```bash
 wip () {
-        if [ -f ~/Sites/latest/artisan ]
+        if [ -f ~/.valet/Sites/latest/artisan ]
         then
-                INSPIRE_MESSAGE="$(php ~/Sites/latest/artisan inspire)" 
+                INSPIRE_MESSAGE="$(php ~/.valet/Sites/latest/artisan inspire)" 
         else
                 INSPIRE_MESSAGE="wip" 
         fi
@@ -20,7 +20,12 @@ wip () {
 
 ### Usage
 
-Add to your .bashrc or .zshrc or an alias file where it will be sourced into your shell.
+Add to your .bashrc or .zshrc or an alias file where it will be sourced into your shell. Then symlink your latest project or laravel install to `~/.valet/Sites/latest`
+
+```bash
+valet link latest
+```
+
 ```bash
 wip
 ```
